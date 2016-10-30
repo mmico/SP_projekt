@@ -1,1 +1,2 @@
-# SP_projekt
+# Vprašanja in odgovori
+Ideja aplikacije je, da omogočamo nekaterim ljudem, ki imajo vprašanje, vendar nimajo kam vprašat, da lahko vprašajo po spletu. Aplikacija bo bila zelo podobno forumu, uporabnik se vpiše v aplikacijo, izbere kategorijo kamor naj bi vprašanje sodilo, odpre novo temo ter postavi vprašanje. Drugi uporabniki bojo to opazili(kategorija in tema bosta odebeljeni) in bojo lahko odgovorili na vprašanje. Spraševalec bo lahko te odgovore spremljal ter označil tistega, ki mu je pomagal(upvote, like, whatever).
