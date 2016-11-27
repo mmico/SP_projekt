@@ -1,19 +1,23 @@
+<!DOCTYPE HTML SYSTEM>
 <html>
-<header>
+<head>
+	<title>Answers and Questons</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="scripts/acc.js"></script>
-</header>
+	<script type="text/javascript" src="scripts/globals.js"></script>
+</head>
 <body align="center">
-	<div class="forme">
-		<form align="left" style="margin-left: 10px; margin-top: 10px"">
-			<input type="submit" value="Nazaj" name="nazaj_l" onclick="back()">
+	<div class="forme1">
+		<form align="left" style="margin-left: 10px; margin-top: 10px" action="index.html">
+			<input type="submit" value="Nazaj">
 		</form>
 		<h2>Vnesite uporabniško ime in geslo</h2>
-		<form>
-			<label>Username: </label><input type="text" size="20" name="username_l" style="margin-bottom:10px"> <br>
-			<label>Geslo: </label><input type="text" size="20" name="geslo_l" style="margin-bottom:10px"> <br>
-			<input type="submit" value="Vpis" name="vpis" style="margin-bottom:10px">
+		<form onsubmit="return false" >
+			<label>Username: </label><input type="text" size="20" id="usernamel" style="margin-bottom:10px"> <br>
+			<label>Geslo: </label><input type="password" size="20" id="geslol" style="margin-bottom:10px"> <br>
+			<input type="submit" value="Vpis" name="vpis" style="margin-bottom:10px" onclick="login()">
 		</form>
+		<p id="napaka"><p>
 	</div>
 </body>
 </html>
