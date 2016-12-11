@@ -50,6 +50,22 @@
 	float: right;
 }
 
+.question{
+	background-color: white;
+	margin-top: 3%;
+	margin-left: 3%;
+	height: 10%;
+	width: 94%;
+}
+
+.answers{
+	background-color: white;
+	margin-top: 3%;
+	margin-left: 3%;
+	height: 75%;
+	width: 94%;
+}
+
 
 html {
 	background: radial-gradient(green 70%, lime);
